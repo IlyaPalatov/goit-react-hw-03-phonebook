@@ -4,7 +4,7 @@ import ContactList from './ContactList';
 import Filter from './Filter';
 import '../styles.css';
 
-export class App extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -61,3 +61,5 @@ export class App extends Component {
     );
   }
 }
+
+export default App;
